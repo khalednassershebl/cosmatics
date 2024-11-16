@@ -237,6 +237,7 @@ a {
             width: 450px;
             font-size: 20px;
             font-weight: 400;
+            text-align: center;
             @media (max-width: $max-12) {
                 width: 70%;
             }
@@ -378,6 +379,7 @@ a {
     .products-container {
         .row {
             padding: 50px 15px;
+            justify-content: center;
         }
     }
     .product-card {
@@ -532,9 +534,7 @@ footer {
         padding: 35px 0;
     }
     .footer-links {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        text-align: center;
         @media (max-width: $max-5) {
             display: block;
         }
@@ -557,8 +557,8 @@ footer {
                         svg {
                             fill: #FFF;
                             @media (max-width: $max-7) {
-                                height: 25px;
-                                width: 25px;
+                                height: 20px;
+                                width: 20px;
                             }
                         }
                     }

@@ -819,6 +819,7 @@ a:hover {
   width: 450px;
   font-size: 20px;
   font-weight: 400;
+  text-align: center;
 }
 @media (max-width: 1199.98px) {
   .index-header .header-content p {
@@ -974,6 +975,7 @@ a:hover {
 }
 .products .products-container .row {
   padding: 50px 15px;
+  justify-content: center;
 }
 .products .product-card {
   background: #FFF;
@@ -1141,9 +1143,7 @@ footer .footer-links-container {
   padding: 35px 0;
 }
 footer .footer-links {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  text-align: center;
 }
 @media (max-width: 575.98px) {
   footer .footer-links {
@@ -1175,8 +1175,8 @@ footer .footer-links .footer-icons ul li a svg {
 }
 @media (max-width: 767.98px) {
   footer .footer-links .footer-icons ul li a svg {
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
   }
 }
 
