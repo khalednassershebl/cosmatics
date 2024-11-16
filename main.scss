@@ -538,6 +538,13 @@ footer {
         @media (max-width: $max-5) {
             display: block;
         }
+        .footer-logo {
+            margin-bottom: 15px;
+            img {
+                max-width: 100%;
+                height: 75px;
+            }
+        }
         .footer-icons {
             @media (max-width: $max-7) {
                 display: block;
